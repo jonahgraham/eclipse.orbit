@@ -15,7 +15,7 @@
   <name>Eclipse Orbit :: Apache Recipes</name>
 
   <modules>
-    <module>org.apache.commons.cli_1.4.0</module>
+    <!-- <module>org.apache.commons.cli_1.4.0</module>
     <module>org.apache.commons.codec_1.14.0</module>
     <module>org.apache.commons.collections_3.2.2</module>
     <module>org.apache.commons.collections4_4.4.0</module>
@@ -43,16 +43,16 @@
     <module>org.apache.xerces_2.12.2</module>
     <module>org.apache.xml.resolver_1.2.0</module>
     <module>org.apache.xml.serializer_2.7.2</module>
-    <module>org.apache.xmlbeans_3.1.0</module>
+    <module>org.apache.xmlbeans_3.1.0</module> -->
     <module>ant</module>
-    <module>batik</module>
+    <!-- <module>batik</module>
     <module>felix</module>
     <module>httpcomponents</module>
     <module>jclouds</module>
     <module>lucene</module>
     <module>maven</module>
     <module>tika</module>
-    <module>xmlrpc</module>
+    <module>xmlrpc</module> -->
   </modules>
 
 </project>

@@ -117,52 +117,9 @@
         <enabled>false</enabled>
       </releases>
     </pluginRepository>
-    <pluginRepository>
-      <id>cbi-releases</id>
-      <url>https://repo.eclipse.org/content/repositories/cbi-releases/</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </pluginRepository>
-    <pluginRepository>
-      <id>cbi-snapshots</id>
-      <url>https://repo.eclipse.org/content/repositories/cbi-snapshots/</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </pluginRepository>
-    <pluginRepository>
-      <id>repo.eclipse.org.dash-releases</id>
-      <url>https://repo.eclipse.org/content/repositories/dash-licenses-releases/</url>
-    </pluginRepository>
-    <pluginRepository>
-      <id>repo.eclipse.org.dash-snapshots</id>
-      <url>https://repo.eclipse.org/content/repositories/dash-licenses-snapshots/</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </pluginRepository>
+   
   </pluginRepositories>
 
-  <repositories>
-    <!-- Artifacts approved for Orbit that can't be taken from Maven Central -->
-    <repository>
-      <id>orbit-approved-artifacts</id>
-      <url>https://repo.eclipse.org/content/repositories/orbit-approved-artifacts</url>
-    </repository>
-    <!-- target platform should reference old-style repository content -->
-    <repository>
-      <id>eclipse-orbit-old</id>
-      <layout>p2</layout>
-      <url>https://download.eclipse.org/tools/orbit/downloads/drops/${orbitOldRBuild}/repository/</url>
-    </repository>
-    <!-- some bundles might depend on base platform content -->
-    <repository>
-      <id>eclipse-platform</id>
-      <url>https://download.eclipse.org/eclipse/updates/4.23/</url>
-      <layout>p2</layout>
-    </repository>
-  </repositories>
 
   <profiles>
     <profile>

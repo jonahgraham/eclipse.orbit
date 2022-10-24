@@ -24,13 +24,13 @@
   </scm>
 
   <modules>
-    <module>antlr</module>
+    <!-- <module>antlr</module>
     <module>aopalliance</module>
     <module>args4j</module>
     <module>asm</module>
-    <module>assertj</module>
+    <module>assertj</module> -->
     <module>apache</module>
-    <module>bouncycastle</module>
+    <!-- <module>bouncycastle</module>
     <module>bytebuddy</module>
     <module>commonmark</module>
     <module>cup</module>
@@ -64,7 +64,7 @@
     <module>sourceforge</module>
     <module>tukaani</module>
     <module>uom</module>
-    <module>xml</module>
+    <module>xml</module> -->
   </modules>
 
 </project>
